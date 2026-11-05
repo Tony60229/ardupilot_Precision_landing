@@ -1,0 +1,12 @@
+RiTW: Starting ArduCopter : /home/sunshine/ardupilot/build/sitl/bin/arducopter -w --model gazebo-iris --speedup 1 --slave 0 --defaults /home/sunshine/work_space/ardupilot_Precision_landing/params/precland_mavlink.parm,/home/sunshine/work_space/ardupilot_Precision_landing/logs/batch_20261104_130108_pE/extra.parm --sim-address=127.0.0.1 -I0
+SIM_VEHICLE: Start
+WARNING: frame gazebo-iris needs an external simulator and no --model was given, using model gazebo-iris
+SIM_VEHICLE: Killing tasks
+SIM_VEHICLE: Starting up at SITL location
+SIM_VEHICLE: Adding parameters from (/home/sunshine/work_space/ardupilot_Precision_landing/params/precland_mavlink.parm)
+SIM_VEHICLE: Adding parameters from (/home/sunshine/work_space/ardupilot_Precision_landing/logs/batch_20261104_130108_pE/extra.parm)
+SIM_VEHICLE: Run ArduCopter
+SIM_VEHICLE: "/home/sunshine/ardupilot/Tools/autotest/run_in_terminal_window.sh" "ArduCopter" "/home/sunshine/ardupilot/build/sitl/bin/arducopter" "-w" "--model" "gazebo-iris" "--speedup" "1" "--slave" "0" "--defaults" "/home/sunshine/work_space/ardupilot_Precision_landing/params/precland_mavlink.parm,/home/sunshine/work_space/ardupilot_Precision_landing/logs/batch_20261104_130108_pE/extra.parm" "--sim-address=127.0.0.1" "-I0"
+SIM_VEHICLE: Waiting for SITL to exit
+SIM_VEHICLE: Keyboard Interrupt received ...
+SIM_VEHICLE: Killing tasks

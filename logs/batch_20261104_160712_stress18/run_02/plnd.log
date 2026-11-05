@@ -1,0 +1,172 @@
+2026-11-04 16:09:48,815 INFO 每幀紀錄 → /home/sunshine/work_space/ardupilot_Precision_landing/logs/batch_20261104_160712_stress18/run_02/plnd_20261104_160948.csv
+2026-11-04 16:09:48,817 INFO 連線飛控 tcp:127.0.0.1:5762
+2026-11-04 16:09:48,907 INFO [FC] RC7: SaveWaypoint LOW
+2026-11-04 16:09:48,908 INFO [FC] RC8: PrecisionLoiter MIDDLE
+2026-11-04 16:09:49,775 INFO UDP 影像接收中（port 5600）
+2026-11-04 16:09:50,662 INFO [FC] EKF3 IMU0 initialised
+2026-11-04 16:09:50,663 INFO [FC] EKF3 IMU1 initialised
+2026-11-04 16:09:50,665 INFO [FC] AHRS: EKF3 active
+2026-11-04 16:09:51,829 INFO 模擬真值：平台中心（相對起飛點）NED = [ 4.518  0.842 -0.402]，平台 yaw 99.1°
+2026-11-04 16:09:51,860 INFO 模式 GUIDED  解鎖 0 | 影像 1 偵測 0 送出 0 | 未偵測
+2026-11-04 16:09:52,046 INFO [FC] EKF3 IMU0 tilt alignment complete
+2026-11-04 16:09:52,060 INFO [FC] EKF3 IMU1 tilt alignment complete
+2026-11-04 16:09:52,137 INFO [FC] EKF3 IMU1 MAG0 initial yaw alignment complete
+2026-11-04 16:09:52,141 INFO [FC] EKF3 IMU0 MAG0 initial yaw alignment complete
+2026-11-04 16:09:52,335 INFO [FC] Arm: Accels inconsistent
+2026-11-04 16:09:52,336 INFO [FC] Arm: AHRS: waiting for home
+2026-11-04 16:09:53,877 INFO 模式 GUIDED  解鎖 0 | 影像 42 偵測 0 送出 0 | 未偵測
+2026-11-04 16:09:55,352 WARNING [auto] 等待逾時：解鎖
+2026-11-04 16:09:55,920 INFO 模式 GUIDED  解鎖 0 | 影像 84 偵測 0 送出 0 | 未偵測
+2026-11-04 16:09:56,020 INFO [FC] GPS 1: probing for u-blox at 230400 baud
+2026-11-04 16:09:56,037 INFO [FC] GPS 1: detected u-blox
+2026-11-04 16:09:57,860 INFO [FC] Arm: Accels inconsistent
+2026-11-04 16:09:57,860 INFO [FC] Arm: AHRS: waiting for home
+2026-11-04 16:09:57,961 INFO 模式 GUIDED  解鎖 0 | 影像 125 偵測 0 送出 0 | 未偵測
+2026-11-04 16:10:00,011 INFO 模式 GUIDED  解鎖 0 | 影像 166 偵測 0 送出 0 | 未偵測
+2026-11-04 16:10:00,865 WARNING [auto] 等待逾時：解鎖
+2026-11-04 16:10:02,026 INFO 模式 GUIDED  解鎖 0 | 影像 206 偵測 0 送出 0 | 未偵測
+2026-11-04 16:10:03,374 INFO [FC] Arm: AHRS: waiting for home
+2026-11-04 16:10:04,046 INFO 模式 GUIDED  解鎖 0 | 影像 246 偵測 0 送出 0 | 未偵測
+2026-11-04 16:10:06,056 INFO 模式 GUIDED  解鎖 0 | 影像 287 偵測 0 送出 0 | 未偵測
+2026-11-04 16:10:06,237 INFO [FC] EKF3 IMU0 origin set
+2026-11-04 16:10:06,302 INFO [FC] Field Elevation Set: 584m
+2026-11-04 16:10:06,385 WARNING [auto] 等待逾時：解鎖
+2026-11-04 16:10:06,422 INFO [FC] EKF3 IMU1 origin set
+2026-11-04 16:10:08,067 INFO 模式 GUIDED  解鎖 0 | 影像 326 偵測 0 送出 0 | 未偵測
+2026-11-04 16:10:08,893 INFO [FC] Arm: Need Position Estimate
+2026-11-04 16:10:10,084 INFO 模式 GUIDED  解鎖 0 | 影像 367 偵測 0 送出 0 | 未偵測
+2026-11-04 16:10:11,898 WARNING [auto] 等待逾時：解鎖
+2026-11-04 16:10:12,129 INFO 模式 GUIDED  解鎖 0 | 影像 408 偵測 0 送出 0 | 未偵測
+2026-11-04 16:10:14,150 INFO 模式 GUIDED  解鎖 0 | 影像 448 偵測 0 送出 0 | 未偵測
+2026-11-04 16:10:14,403 INFO [FC] Arm: Need Position Estimate
+2026-11-04 16:10:16,177 INFO 模式 GUIDED  解鎖 0 | 影像 489 偵測 0 送出 0 | 未偵測
+2026-11-04 16:10:16,869 INFO [FC] PreArm: Need Position Estimate
+2026-11-04 16:10:17,410 WARNING [auto] 等待逾時：解鎖
+2026-11-04 16:10:18,222 INFO 模式 GUIDED  解鎖 0 | 影像 527 偵測 0 送出 0 | 未偵測
+2026-11-04 16:10:19,916 INFO [FC] Arm: Need Position Estimate
+2026-11-04 16:10:20,238 INFO 模式 GUIDED  解鎖 0 | 影像 560 偵測 0 送出 0 | 未偵測
+2026-11-04 16:10:22,275 INFO 模式 GUIDED  解鎖 0 | 影像 601 偵測 0 送出 0 | 未偵測
+2026-11-04 16:10:22,921 WARNING [auto] 等待逾時：解鎖
+2026-11-04 16:10:24,310 INFO 模式 GUIDED  解鎖 0 | 影像 643 偵測 0 送出 0 | 未偵測
+2026-11-04 16:10:25,429 INFO [FC] Arm: Need Position Estimate
+2026-11-04 16:10:26,315 INFO 模式 GUIDED  解鎖 0 | 影像 683 偵測 0 送出 0 | 未偵測
+2026-11-04 16:10:28,281 INFO [FC] EKF3 IMU0 is using GPS
+2026-11-04 16:10:28,283 INFO [FC] EKF3 IMU1 is using GPS
+2026-11-04 16:10:28,359 INFO 模式 GUIDED  解鎖 0 | 影像 724 偵測 0 送出 0 | 未偵測
+2026-11-04 16:10:28,446 WARNING [auto] 等待逾時：解鎖
+2026-11-04 16:10:30,379 INFO 模式 GUIDED  解鎖 0 | 影像 758 偵測 0 送出 0 | 未偵測
+2026-11-04 16:10:30,955 INFO [FC] Arming motors
+2026-11-04 16:10:31,653 INFO [auto] 起飛到 18.0 m
+2026-11-04 16:10:32,412 INFO 模式 GUIDED  解鎖 1 | 影像 800 偵測 0 送出 0 | 未偵測
+2026-11-04 16:10:34,416 INFO 模式 GUIDED  解鎖 1 | 影像 839 偵測 0 送出 0 | 未偵測
+2026-11-04 16:10:36,371 WARNING 影像積壓 0.15 s（上限 0.15）：停止送 LANDING_TARGET。電腦負載過高，請關閉 Gazebo 畫面 / MAVProxy 地圖，或降低相機解析度
+2026-11-04 16:10:36,431 INFO 模式 GUIDED  解鎖 1 | 影像 872 偵測 0 送出 0 | 未偵測
+2026-11-04 16:10:37,044 INFO [FC] EKF3 IMU0 MAG0 in-flight yaw alignment complete
+2026-11-04 16:10:37,147 INFO [FC] EKF3 IMU1 MAG0 in-flight yaw alignment complete
+2026-11-04 16:10:38,470 INFO 模式 GUIDED  解鎖 1 | 影像 908 偵測 0 送出 0 | 未偵測
+EOF on TCP socket
+Attempting reconnect
+[Errno 111] Connection refused sleeping
+Connection reset or closed by peer on TCP socket
+Attempting reconnect
+[Errno 111] Connection refused sleeping
+[Errno 111] Connection refused sleeping
+[Errno 111] Connection refused sleeping
+Attempting reconnect
+[Errno 111] Connection refused sleeping
+Exception in thread mav-hb:
+Traceback (most recent call last):
+  File "/home/sunshine/.local/lib/python3.10/site-packages/pymavlink/mavutil.py", line 1250, in write
+    self.port.send(buf)
+BrokenPipeError: [Errno 32] Broken pipe
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.10/threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/sunshine/work_space/ardupilot_Precision_landing/ap_precland.py", line 513, in _gcs_heartbeat
+    self.m.mav.heartbeat_send(mavutil.mavlink.MAV_TYPE_ONBOARD_CONTROLLER,
+  File "/home/sunshine/.local/lib/python3.10/site-packages/pymavlink/dialects/v20/all.py", line 37164, in heartbeat_send
+    self.send(self.heartbeat_encode(type, autopilot, base_mode, custom_mode, system_status, mavlink_version), force_mavlink1=force_mavlink1)
+  File "/home/sunshine/.local/lib/python3.10/site-packages/pymavlink/dialects/v20/all.py", line 25855, in send
+    self.file.write(buf)
+  File "/home/sunshine/.local/lib/python3.10/site-packages/pymavlink/mavutil.py", line 1253, in write
+    self.handle_disconnect()
+  File "/home/sunshine/.local/lib/python3.10/site-packages/pymavlink/mavutil.py", line 1216, in handle_disconnect
+    self.reconnect()
+  File "/home/sunshine/.local/lib/python3.10/site-packages/pymavlink/mavutil.py", line 1262, in reconnect
+    self.do_connect()
+  File "/home/sunshine/.local/lib/python3.10/site-packages/pymavlink/mavutil.py", line 1204, in do_connect
+    raise e
+  File "/home/sunshine/.local/lib/python3.10/site-packages/pymavlink/mavutil.py", line 1197, in do_connect
+    self.port.connect(self.destination_addr)
+ConnectionRefusedError: [Errno 111] Connection refused
+'NoneType' object has no attribute 'connect' sleeping
+Attempting reconnect
+[Errno 111] Connection refused sleeping
+[Errno 111] Connection refused sleeping
+2026-11-04 16:10:44,179 WARNING UDP 影像 5 s 沒有資料，重建 pipeline
+2026-11-04 16:10:44,184 INFO UDP 影像接收中（port 5600）
+Attempting reconnect
+[Errno 111] Connection refused sleeping
+2026-11-04 16:10:45,682 INFO 模式 GUIDED  解鎖 1 | 影像 922 偵測 0 送出 0 | 未偵測
+[Errno 111] Connection refused sleeping
+Attempting reconnect
+[Errno 111] Connection refused sleeping
+2026-11-04 16:10:47,707 INFO 模式 GUIDED  解鎖 1 | 影像 945 偵測 0 送出 0 | 未偵測
+[Errno 111] Connection refused sleeping
+Attempting reconnect
+[Errno 111] Connection refused sleeping
+2026-11-04 16:10:49,792 INFO 模式 GUIDED  解鎖 1 | 影像 970 偵測 0 送出 0 | 未偵測
+[Errno 111] Connection refused sleeping
+Attempting reconnect
+[Errno 111] Connection refused sleeping
+2026-11-04 16:10:51,831 INFO 模式 GUIDED  解鎖 1 | 影像 993 偵測 0 送出 0 | 未偵測
+[Errno 111] Connection refused sleeping
+Attempting reconnect
+[Errno 111] Connection refused sleeping
+2026-11-04 16:10:53,848 INFO 模式 GUIDED  解鎖 1 | 影像 1016 偵測 0 送出 0 | 未偵測
+[Errno 111] Connection refused sleeping
+Attempting reconnect
+[Errno 111] Connection refused sleeping
+2026-11-04 16:10:55,850 INFO 模式 GUIDED  解鎖 1 | 影像 1039 偵測 0 送出 0 | 未偵測
+[Errno 111] Connection refused sleeping
+Attempting reconnect
+[Errno 111] Connection refused sleeping
+2026-11-04 16:10:57,876 INFO 模式 GUIDED  解鎖 1 | 影像 1061 偵測 0 送出 0 | 未偵測
+[Errno 111] Connection refused sleeping
+Attempting reconnect
+[Errno 111] Connection refused sleeping
+2026-11-04 16:10:59,917 INFO 模式 GUIDED  解鎖 1 | 影像 1081 偵測 0 送出 0 | 未偵測
+[Errno 111] Connection refused sleeping
+Attempting reconnect
+[Errno 111] Connection refused sleeping
+2026-11-04 16:11:01,965 INFO 模式 GUIDED  解鎖 1 | 影像 1101 偵測 0 送出 0 | 未偵測
+[Errno 111] Connection refused sleeping
+Attempting reconnect
+[Errno 111] Connection refused sleeping
+2026-11-04 16:11:03,987 INFO 模式 GUIDED  解鎖 1 | 影像 1122 偵測 0 送出 0 | 未偵測
+[Errno 111] Connection refused sleeping
+Attempting reconnect
+[Errno 111] Connection refused sleeping
+2026-11-04 16:11:06,062 INFO 模式 GUIDED  解鎖 1 | 影像 1143 偵測 0 送出 0 | 未偵測
+[Errno 111] Connection refused sleeping
+Attempting reconnect
+[Errno 111] Connection refused sleeping
+2026-11-04 16:11:08,154 INFO 模式 GUIDED  解鎖 1 | 影像 1164 偵測 0 送出 0 | 未偵測
+[Errno 111] Connection refused sleeping
+Attempting reconnect
+[Errno 111] Connection refused sleeping
+[Errno 111] Connection refused sleeping
+2026-11-04 16:11:10,212 INFO 模式 GUIDED  解鎖 1 | 影像 1185 偵測 0 送出 0 | 未偵測
+Attempting reconnect
+[Errno 111] Connection refused sleeping
+2026-11-04 16:11:11,679 WARNING [auto] 等待逾時：起飛高度
+[Errno 111] Connection refused sleeping
+Attempting reconnect
+[Errno 111] Connection refused sleeping
+2026-11-04 16:11:13,926 INFO Excel：/home/sunshine/work_space/ardupilot_Precision_landing/logs/batch_20261104_160712_stress18/run_02/plnd_20261104_160948.xlsx
+[Errno 111] Connection refused sleeping

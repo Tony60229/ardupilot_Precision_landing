@@ -1,0 +1,70 @@
+{
+ "log_csv": "/home/sunshine/work_space/ardupilot_Precision_landing/logs/batch_20261104_171120_cam540_stress8/run_04/plnd_20261104_171835.csv",
+ "frames": 2370,
+ "detections": 1394,
+ "sent": 1391,
+ "max_backlog_s": 0.09919267756049521,
+ "meas_err_h_all": {
+  "n": 1394,
+  "mean_m": 0.1002694949801972,
+  "p95_m": 0.33764369543962386,
+  "max_m": 1.2727264552209965
+ },
+ "meas_err_h_below_2m": {
+  "n": 483,
+  "mean_m": 0.015263035953580561,
+  "p95_m": 0.0283830083436759,
+  "max_m": 0.041959259470588255
+ },
+ "meas_err_h_below_1m": {
+  "n": 321,
+  "mean_m": 0.013203028916722289,
+  "p95_m": 0.02408627073808886,
+  "max_m": 0.03154523381288728
+ },
+ "marker_rel_home": [
+  3.54,
+  -1.1803,
+  -0.402496
+ ],
+ "proc_delay_ms_mean": 30.99872739449539,
+ "result": {
+  "landed": true,
+  "land_duration_s": 60.3479706379876,
+  "approach_offset_m": 2.5624635168260976,
+  "approach_dir_deg": 38.73658957345395,
+  "approach_yaw_deg": -33.63687724093723,
+  "error_m": 0.06094357390242201,
+  "err_pad_x_m": -0.050887548428119225,
+  "err_pad_y_m": -0.033534707617270114,
+  "on_pad": true,
+  "drone_gz": [
+   3.56926,
+   1.12684,
+   0.399948,
+   9.7e-05,
+   -2e-06,
+   0.576257
+  ],
+  "pad_gz": [
+   3.54,
+   1.1803,
+   0.0,
+   0.0,
+   -0.0,
+   1.48891
+  ],
+  "drone_tilt_deg": 0.0055588718435183,
+  "fc_messages": [
+   "Disarming motors"
+  ],
+  "target_lost_count": 0,
+  "retry_count": 0
+ },
+ "video_latency": {
+  "best_latency_ms": 60,
+  "rms_at_best_m": 0.08756027726728656,
+  "rms_at_0_m": 0.13442706045975558
+ },
+ "suggested_PLND_LAG_s": 0.091
+}

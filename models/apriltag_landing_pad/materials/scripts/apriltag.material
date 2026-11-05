@@ -1,0 +1,22 @@
+// AprilTag tagCustom48h12 nested (IDs 0/1/2) texture
+// filtering none: keep tag cell edges crisp (no blur) so the detector sees sharp corners
+material AprilTag/Custom48h12Nested
+{
+  technique
+  {
+    pass
+    {
+      ambient 1 1 1 1
+      diffuse 1 1 1 1
+      specular 0 0 0 1 1
+      lighting off
+
+      texture_unit
+      {
+        texture tag48h12_nested.png
+        filtering none
+        tex_address_mode clamp
+      }
+    }
+  }
+}

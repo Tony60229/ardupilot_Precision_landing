@@ -1,0 +1,16 @@
+{
+ "log_csv": "/home/sunshine/work_space/ardupilot_Precision_landing/logs/batch_20261104_160712_stress18/run_03/plnd_20261104_161123.csv",
+ "frames": 27,
+ "detections": 0,
+ "sent": 0,
+ "max_backlog_s": 0.029482818208634853,
+ "marker_rel_home": [
+  3.4007,
+  -1.0978,
+  -0.402496
+ ],
+ "result": {
+  "landed": false,
+  "error": "[Errno 111] Connection refused"
+ }
+}

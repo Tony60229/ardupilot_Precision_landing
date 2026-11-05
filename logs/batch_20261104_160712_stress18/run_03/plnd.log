@@ -1,0 +1,102 @@
+2026-11-04 16:11:23,813 INFO 每幀紀錄 → /home/sunshine/work_space/ardupilot_Precision_landing/logs/batch_20261104_160712_stress18/run_03/plnd_20261104_161123.csv
+2026-11-04 16:11:23,813 INFO 連線飛控 tcp:127.0.0.1:5762
+2026-11-04 16:11:24,910 INFO UDP 影像接收中（port 5600）
+2026-11-04 16:11:25,601 INFO [FC] EKF3 IMU0 initialised
+2026-11-04 16:11:25,602 INFO [FC] EKF3 IMU1 initialised
+2026-11-04 16:11:25,605 INFO [FC] AHRS: EKF3 active
+2026-11-04 16:11:26,742 INFO 模擬真值：平台中心（相對起飛點）NED = [ 3.401 -1.098 -0.402]，平台 yaw -68.0°
+2026-11-04 16:11:26,770 INFO 模式 GUIDED  解鎖 0 | 影像 1 偵測 0 送出 0 | 未偵測
+2026-11-04 16:11:27,005 INFO [FC] EKF3 IMU0 tilt alignment complete
+2026-11-04 16:11:27,014 INFO [FC] EKF3 IMU1 tilt alignment complete
+2026-11-04 16:11:27,093 INFO [FC] EKF3 IMU1 MAG0 initial yaw alignment complete
+2026-11-04 16:11:27,109 INFO [FC] EKF3 IMU0 MAG0 initial yaw alignment complete
+2026-11-04 16:11:27,248 INFO [FC] Arm: Accels inconsistent
+2026-11-04 16:11:27,248 INFO [FC] Arm: AHRS: waiting for home
+EOF on TCP socket
+Attempting reconnect
+[Errno 111] Connection refused sleeping
+Connection reset or closed by peer on TCP socket
+Attempting reconnect
+[Errno 111] Connection refused sleeping
+[Errno 111] Connection refused sleeping
+[Errno 111] Connection refused sleeping
+Attempting reconnect
+[Errno 111] Connection refused sleeping
+2026-11-04 16:11:30,250 WARNING [auto] 等待逾時：解鎖
+Exception in thread mav-hb:
+Traceback (most recent call last):
+  File "/home/sunshine/.local/lib/python3.10/site-packages/pymavlink/mavutil.py", line 1250, in write
+    self.port.send(buf)
+BrokenPipeError: [Errno 32] Broken pipe
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.10/threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/sunshine/work_space/ardupilot_Precision_landing/ap_precland.py", line 513, in _gcs_heartbeat
+    self.m.mav.heartbeat_send(mavutil.mavlink.MAV_TYPE_ONBOARD_CONTROLLER,
+  File "/home/sunshine/.local/lib/python3.10/site-packages/pymavlink/dialects/v20/all.py", line 37164, in heartbeat_send
+    self.send(self.heartbeat_encode(type, autopilot, base_mode, custom_mode, system_status, mavlink_version), force_mavlink1=force_mavlink1)
+  File "/home/sunshine/.local/lib/python3.10/site-packages/pymavlink/dialects/v20/all.py", line 25855, in send
+    self.file.write(buf)
+  File "/home/sunshine/.local/lib/python3.10/site-packages/pymavlink/mavutil.py", line 1253, in write
+    self.handle_disconnect()
+  File "/home/sunshine/.local/lib/python3.10/site-packages/pymavlink/mavutil.py", line 1216, in handle_disconnect
+    self.reconnect()
+  File "/home/sunshine/.local/lib/python3.10/site-packages/pymavlink/mavutil.py", line 1262, in reconnect
+    self.do_connect()
+  File "/home/sunshine/.local/lib/python3.10/site-packages/pymavlink/mavutil.py", line 1204, in do_connect
+    raise e
+  File "/home/sunshine/.local/lib/python3.10/site-packages/pymavlink/mavutil.py", line 1197, in do_connect
+    self.port.connect(self.destination_addr)
+ConnectionRefusedError: [Errno 111] Connection refused
+'NoneType' object has no attribute 'connect' sleeping
+Attempting reconnect
+[Errno 111] Connection refused sleeping
+Connection reset or closed by peer on TCP socket
+Attempting reconnect
+[Errno 111] Connection refused sleeping
+[Errno 111] Connection refused sleeping
+2026-11-04 16:11:32,702 WARNING UDP 影像 5 s 沒有資料，重建 pipeline
+2026-11-04 16:11:32,709 INFO UDP 影像接收中（port 5600）
+[Errno 111] Connection refused sleeping
+Attempting reconnect
+[Errno 111] Connection refused sleeping
+2026-11-04 16:11:33,795 INFO 模式 GUIDED  解鎖 0 | 影像 22 偵測 0 送出 0 | 未偵測
+2026-11-04 16:11:34,254 ERROR [auto] 例外：[Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/home/sunshine/.local/lib/python3.10/site-packages/pymavlink/mavutil.py", line 1250, in write
+    self.port.send(buf)
+BrokenPipeError: [Errno 32] Broken pipe
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/sunshine/work_space/ardupilot_Precision_landing/ap_precland.py", line 727, in _run
+    self._sequence()
+  File "/home/sunshine/work_space/ardupilot_Precision_landing/ap_precland.py", line 744, in _sequence
+    mav.set_mode(4)                      # GUIDED
+  File "/home/sunshine/work_space/ardupilot_Precision_landing/ap_precland.py", line 587, in set_mode
+    self.command_long(mavutil.mavlink.MAV_CMD_DO_SET_MODE,
+  File "/home/sunshine/work_space/ardupilot_Precision_landing/ap_precland.py", line 584, in command_long
+    self.m.mav.command_long_send(self.cfg.target_system, self.cfg.target_component, cmd, 0, *p)
+  File "/home/sunshine/.local/lib/python3.10/site-packages/pymavlink/dialects/v20/all.py", line 30886, in command_long_send
+    self.send(self.command_long_encode(target_system, target_component, command, confirmation, param1, param2, param3, param4, param5, param6, param7), force_mavlink1=force_mavlink1)
+  File "/home/sunshine/.local/lib/python3.10/site-packages/pymavlink/dialects/v20/all.py", line 25855, in send
+    self.file.write(buf)
+  File "/home/sunshine/.local/lib/python3.10/site-packages/pymavlink/mavutil.py", line 1253, in write
+    self.handle_disconnect()
+  File "/home/sunshine/.local/lib/python3.10/site-packages/pymavlink/mavutil.py", line 1216, in handle_disconnect
+    self.reconnect()
+  File "/home/sunshine/.local/lib/python3.10/site-packages/pymavlink/mavutil.py", line 1262, in reconnect
+    self.do_connect()
+  File "/home/sunshine/.local/lib/python3.10/site-packages/pymavlink/mavutil.py", line 1204, in do_connect
+    raise e
+  File "/home/sunshine/.local/lib/python3.10/site-packages/pymavlink/mavutil.py", line 1197, in do_connect
+    self.port.connect(self.destination_addr)
+ConnectionRefusedError: [Errno 111] Connection refused
+'NoneType' object has no attribute 'connect' sleeping
+2026-11-04 16:11:34,899 INFO Excel：/home/sunshine/work_space/ardupilot_Precision_landing/logs/batch_20261104_160712_stress18/run_03/plnd_20261104_161123.xlsx

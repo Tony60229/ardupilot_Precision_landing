@@ -1,0 +1,23 @@
+Gazebo multi-robot simulator, version 11.10.2
+Copyright (C) 2012 Open Source Robotics Foundation.
+Released under the Apache 2 License.
+http://gazebosim.org
+
+[1;32m[Msg] [0m[1;32mWaiting for master.[0m[1;32m
+[0m[1;32m[0m[1;32m[0m[1;32m[Msg] [0m[1;32mConnected to gazebo master @ [0m[1;32mhttp://127.0.0.1:11345[0m[1;32m
+[0m[1;32m[0m[1;32m[0m[1;32m[Msg] [0m[1;32mPublicized address: [0m[1;32m192.168.233.135[0m[1;32m
+[0m[1;32m[0m[1;32m[0m[1;32m[Msg] [0m[1;32mLoading world file [[0m[1;32m/home/sunshine/work_space/ardupilot_Precision_landing/logs/batch_20261104_131835_final20/run_16/world.world[0m[1;32m][0m[1;32m
+[0m[1;32m[0m[1;32m[0m[1;33m[Wrn] [Event.cc:61] [0m[1;33mWarning: Deleting a connection right after creation. [0m[1;33mMake sure to save the ConnectionPtr from a Connect call
+[0m[1;33m[Wrn] [gazebo_gst_camera_plugin.cpp:232] [0m[1;33m[gazebo_gst_camera_plugin] Streaming video to ip: [0m[1;33m127.0.0.1[0m[1;33m port: [0m[1;33m5600[0m[1;33m
+[0m[1;33m[0m[1;33m[0m[1;31m[Err] [liftdrag_plugin.cpp:166] [0m[1;31m[gazebo_liftdrag_plugin] Please specify a robotNamespace.
+[0m[1;31m[Err] [liftdrag_plugin.cpp:166] [0m[1;31m[gazebo_liftdrag_plugin] Please specify a robotNamespace.
+[0m[1;31m[Err] [liftdrag_plugin.cpp:166] [0m[1;31m[gazebo_liftdrag_plugin] Please specify a robotNamespace.
+[0m[1;31m[Err] [liftdrag_plugin.cpp:166] [0m[1;31m[gazebo_liftdrag_plugin] Please specify a robotNamespace.
+[0m[1;31m[Err] [liftdrag_plugin.cpp:166] [0m[1;31m[gazebo_liftdrag_plugin] Please specify a robotNamespace.
+[0m[1;31m[Err] [liftdrag_plugin.cpp:166] [0m[1;31m[gazebo_liftdrag_plugin] Please specify a robotNamespace.
+[0m[1;31m[Err] [liftdrag_plugin.cpp:166] [0m[1;31m[gazebo_liftdrag_plugin] Please specify a robotNamespace.
+[0m[1;31m[Err] [liftdrag_plugin.cpp:166] [0m[1;31m[gazebo_liftdrag_plugin] Please specify a robotNamespace.
+[0m[1;36m[Dbg] [ArduPilotPlugin.cc:1056] [0m[1;36m[[0m[1;36miris_demo[0m[1;36m] [0m[1;36mArduPilot controller online detected.
+[0m[1;33m[Wrn] [Publisher.cc:135] [0m[1;33mQueue limit reached for topic [0m[1;33m/gazebo/default/pose/local/info[0m[1;33m, deleting message. [0m[1;33mThis warning is printed only once.[0m[1;33m
+[0m[1;33m[0m[1;33m[0m[1;33m[Wrn] [ArduPilotPlugin.cc:1022] [0m[1;33m[[0m[1;33miris_demo[0m[1;33m] [0m[1;33mBroken ArduPilot connection, count [[0m[1;33m0[0m[1;33m/[0m[1;33m5[0m[1;33m]
+[0m[1;33m[0m[1;36m[0m[1;31m[0m[1;32m[0m

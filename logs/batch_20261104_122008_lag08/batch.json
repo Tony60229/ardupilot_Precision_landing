@@ -1,0 +1,24 @@
+{
+ "seed": 21,
+ "args": {
+  "runs": 3,
+  "seed": 21,
+  "pad_center": [
+   5.0,
+   0.0
+  ],
+  "pad_range": 2.0,
+  "pad_yaw": "random",
+  "approach_err": 1.5,
+  "takeoff_alt": 6.0,
+  "frame": "body",
+  "video_latency": null,
+  "param": [
+   "PLND_LAG=0.08"
+  ],
+  "run_timeout": 300.0,
+  "success_radius": 0.05,
+  "tag": "lag08",
+  "out": "/home/sunshine/work_space/ardupilot_Precision_landing/logs"
+ }
+}

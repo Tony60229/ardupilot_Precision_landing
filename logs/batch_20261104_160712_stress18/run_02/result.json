@@ -1,0 +1,17 @@
+{
+ "log_csv": "/home/sunshine/work_space/ardupilot_Precision_landing/logs/batch_20261104_160712_stress18/run_02/plnd_20261104_160948.csv",
+ "frames": 1200,
+ "detections": 0,
+ "sent": 0,
+ "max_backlog_s": 0.15287770389113575,
+ "stale_frames": 3,
+ "marker_rel_home": [
+  4.5183,
+  0.8417,
+  -0.402496
+ ],
+ "result": {
+  "landed": false,
+  "error": "takeoff failed"
+ }
+}

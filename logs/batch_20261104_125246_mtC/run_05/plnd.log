@@ -1,0 +1,105 @@
+2026-11-04 12:59:32,989 INFO 每幀紀錄 → /home/sunshine/work_space/ardupilot_Precision_landing/logs/batch_20261104_125246_mtC/run_05/plnd_20261104_125932.csv
+2026-11-04 12:59:32,989 INFO 連線飛控 tcp:127.0.0.1:5760
+2026-11-04 12:59:33,043 INFO [FC] RCInput: decoding UDP (Pulses)
+2026-11-04 12:59:33,079 INFO [FC] Calibrating barometer
+2026-11-04 12:59:33,714 INFO UDP 影像接收中（port 5600）
+2026-11-04 12:59:34,695 INFO [FC] Barometer 1 calibration complete
+2026-11-04 12:59:34,695 INFO [FC] Barometer 2 calibration complete
+2026-11-04 12:59:35,257 INFO [FC] ArduPilot Ready
+2026-11-04 12:59:35,555 INFO [FC] RC7: SaveWaypoint LOW
+2026-11-04 12:59:35,555 INFO [FC] RC8: PrecisionLoiter MIDDLE
+2026-11-04 12:59:36,588 INFO 模擬真值：平台中心（相對起飛點）NED = [ 4.205  0.763 -0.402]，平台 yaw 1.4°
+2026-11-04 12:59:36,602 INFO 模式 GUIDED  解鎖 0 | 影像 1 偵測 0 送出 0 | 未偵測
+2026-11-04 12:59:37,093 INFO [FC] Arm: Need Alt Estimate
+2026-11-04 12:59:37,093 INFO [FC] Arm: Accels inconsistent
+2026-11-04 12:59:37,093 INFO [FC] Arm: EKF attitude is bad
+2026-11-04 12:59:37,093 INFO [FC] Arm: AHRS: waiting for home
+2026-11-04 12:59:37,263 INFO [FC] EKF3 IMU0 initialised
+2026-11-04 12:59:37,263 INFO [FC] EKF3 IMU1 initialised
+2026-11-04 12:59:37,267 INFO [FC] AHRS: EKF3 active
+2026-11-04 12:59:38,610 INFO [FC] EKF3 IMU0 tilt alignment complete
+2026-11-04 12:59:38,616 INFO [FC] EKF3 IMU1 tilt alignment complete
+2026-11-04 12:59:38,620 INFO 模式 GUIDED  解鎖 0 | 影像 62 偵測 0 送出 0 | 未偵測
+2026-11-04 12:59:38,695 INFO [FC] EKF3 IMU0 MAG0 initial yaw alignment complete
+2026-11-04 12:59:38,697 INFO [FC] EKF3 IMU1 MAG0 initial yaw alignment complete
+2026-11-04 12:59:40,094 WARNING [auto] 等待逾時：解鎖
+2026-11-04 12:59:40,648 INFO 模式 GUIDED  解鎖 0 | 影像 123 偵測 0 送出 0 | 未偵測
+2026-11-04 12:59:42,598 INFO [FC] Arm: Accels inconsistent
+2026-11-04 12:59:42,599 INFO [FC] Arm: AHRS: waiting for home
+2026-11-04 12:59:42,599 INFO [FC] GPS 1: probing for u-blox at 230400 baud
+2026-11-04 12:59:42,620 INFO [FC] GPS 1: detected u-blox
+2026-11-04 12:59:42,685 INFO 模式 GUIDED  解鎖 0 | 影像 184 偵測 0 送出 0 | 未偵測
+2026-11-04 12:59:44,715 INFO 模式 GUIDED  解鎖 0 | 影像 245 偵測 0 送出 0 | 未偵測
+2026-11-04 12:59:45,603 WARNING [auto] 等待逾時：解鎖
+2026-11-04 12:59:46,721 INFO 模式 GUIDED  解鎖 0 | 影像 305 偵測 0 送出 0 | 未偵測
+2026-11-04 12:59:48,110 INFO [FC] Arm: AHRS: waiting for home
+2026-11-04 12:59:48,748 INFO 模式 GUIDED  解鎖 0 | 影像 366 偵測 0 送出 0 | 未偵測
+2026-11-04 12:59:50,755 INFO 模式 GUIDED  解鎖 0 | 影像 426 偵測 0 送出 0 | 未偵測
+2026-11-04 12:59:51,115 WARNING [auto] 等待逾時：解鎖
+2026-11-04 12:59:52,759 INFO 模式 GUIDED  解鎖 0 | 影像 486 偵測 0 送出 0 | 未偵測
+2026-11-04 12:59:52,813 INFO [FC] EKF3 IMU1 origin set
+2026-11-04 12:59:52,820 INFO [FC] EKF3 IMU0 origin set
+2026-11-04 12:59:52,865 INFO [FC] Field Elevation Set: 584m
+2026-11-04 12:59:53,625 INFO [FC] Arm: Need Position Estimate
+2026-11-04 12:59:54,788 INFO 模式 GUIDED  解鎖 0 | 影像 547 偵測 0 送出 0 | 未偵測
+2026-11-04 12:59:56,628 WARNING [auto] 等待逾時：解鎖
+2026-11-04 12:59:56,836 INFO 模式 GUIDED  解鎖 0 | 影像 608 偵測 0 送出 0 | 未偵測
+2026-11-04 12:59:58,853 INFO 模式 GUIDED  解鎖 0 | 影像 669 偵測 0 送出 0 | 未偵測
+2026-11-04 12:59:59,137 INFO [FC] Arm: Need Position Estimate
+2026-11-04 13:00:00,857 INFO 模式 GUIDED  解鎖 0 | 影像 729 偵測 0 送出 0 | 未偵測
+2026-11-04 13:00:01,272 INFO [FC] PreArm: Need Position Estimate
+2026-11-04 13:00:02,135 WARNING [auto] 等待逾時：解鎖
+2026-11-04 13:00:02,886 INFO 模式 GUIDED  解鎖 0 | 影像 790 偵測 0 送出 0 | 未偵測
+2026-11-04 13:00:04,644 INFO [FC] Arm: Need Position Estimate
+2026-11-04 13:00:04,888 INFO 模式 GUIDED  解鎖 0 | 影像 850 偵測 0 送出 0 | 未偵測
+2026-11-04 13:00:06,914 INFO 模式 GUIDED  解鎖 0 | 影像 911 偵測 0 送出 0 | 未偵測
+2026-11-04 13:00:07,650 WARNING [auto] 等待逾時：解鎖
+2026-11-04 13:00:08,927 INFO 模式 GUIDED  解鎖 0 | 影像 971 偵測 0 送出 0 | 未偵測
+2026-11-04 13:00:10,156 INFO [FC] Arm: Need Position Estimate
+2026-11-04 13:00:10,951 INFO 模式 GUIDED  解鎖 0 | 影像 1032 偵測 0 送出 0 | 未偵測
+2026-11-04 13:00:12,959 INFO 模式 GUIDED  解鎖 0 | 影像 1092 偵測 0 送出 0 | 未偵測
+2026-11-04 13:00:13,161 WARNING [auto] 等待逾時：解鎖
+2026-11-04 13:00:14,430 INFO [FC] EKF3 IMU0 is using GPS
+2026-11-04 13:00:14,430 INFO [FC] EKF3 IMU1 is using GPS
+2026-11-04 13:00:14,984 INFO 模式 GUIDED  解鎖 0 | 影像 1153 偵測 0 送出 0 | 未偵測
+2026-11-04 13:00:15,666 INFO [FC] Arming motors
+2026-11-04 13:00:15,964 INFO [auto] 起飛到 6.0 m
+2026-11-04 13:00:16,998 INFO 模式 GUIDED  解鎖 1 | 影像 1213 偵測 0 送出 0 | 未偵測
+2026-11-04 13:00:19,021 INFO 模式 GUIDED  解鎖 1 | 影像 1274 偵測 0 送出 0 | 未偵測
+2026-11-04 13:00:21,031 INFO 模式 GUIDED  解鎖 1 | 影像 1335 偵測 0 送出 0 | 未偵測
+2026-11-04 13:00:21,334 INFO [FC] EKF3 IMU0 MAG0 in-flight yaw alignment complete
+2026-11-04 13:00:21,334 INFO [FC] EKF3 IMU1 MAG0 in-flight yaw alignment complete
+2026-11-04 13:00:22,985 INFO [auto] 前往 NED (3.79, -0.39, -6.00)，偏離平台 1.23 m，yaw 11°
+2026-11-04 13:00:23,062 INFO 模式 GUIDED  解鎖 1 | 影像 1396 偵測 0 送出 0 | 未偵測
+2026-11-04 13:00:24,657 INFO [FC] PrecLand: Target Found
+2026-11-04 13:00:25,073 INFO 模式 GUIDED  解鎖 1 | 影像 1457 偵測 14 送出 14 | ID 0 cam=(+1.540,+1.061,5.495)
+2026-11-04 13:00:26,666 INFO [FC] PrecLand: Init Complete
+2026-11-04 13:00:27,080 INFO 模式 GUIDED  解鎖 1 | 影像 1517 偵測 61 送出 58 | ID 0 cam=(+0.684,-1.584,5.560)
+2026-11-04 13:00:28,604 INFO [auto] 切換 LAND
+Error, more than one new minima found.
+2026-11-04 13:00:29,120 INFO 模式 LAND    解鎖 1 | 影像 1574 偵測 118 送出 109 | ID 0 cam=(+1.801,-1.037,5.465)
+Error, more than one new minima found.
+2026-11-04 13:00:31,146 INFO 模式 LAND    解鎖 1 | 影像 1635 偵測 179 送出 164 | ID 0 cam=(-0.328,+0.145,5.268)
+2026-11-04 13:00:33,175 INFO 模式 LAND    解鎖 1 | 影像 1696 偵測 240 送出 220 | ID 0 cam=(-0.538,+0.040,4.710)
+Error, more than one new minima found.
+2026-11-04 13:00:35,210 INFO 模式 LAND    解鎖 1 | 影像 1757 偵測 301 送出 271 | ID 0 cam=(+0.197,-0.021,4.152)
+2026-11-04 13:00:37,254 INFO 模式 LAND    解鎖 1 | 影像 1818 偵測 362 送出 326 | ID 0 cam=(-0.057,+0.011,3.543)
+2026-11-04 13:00:39,265 INFO 模式 LAND    解鎖 1 | 影像 1877 偵測 421 送出 373 | ID 0 cam=(+0.362,+0.023,2.964)
+2026-11-04 13:00:41,274 INFO 模式 LAND    解鎖 1 | 影像 1938 偵測 482 送出 425 | ID 0 cam=(-0.073,-0.011,2.375)
+2026-11-04 13:00:43,275 INFO 模式 LAND    解鎖 1 | 影像 1998 偵測 542 送出 477 | ID 0 cam=(-0.215,+0.015,1.821)
+2026-11-04 13:00:45,292 INFO 模式 LAND    解鎖 1 | 影像 2059 偵測 603 送出 534 | ID 0 cam=(+0.051,+0.012,1.615)
+2026-11-04 13:00:47,311 INFO 模式 LAND    解鎖 1 | 影像 2119 偵測 663 送出 592 | ID 0 cam=(+0.077,+0.007,1.323)
+Error, more than one new minima found.
+2026-11-04 13:00:49,332 INFO 模式 LAND    解鎖 1 | 影像 2180 偵測 724 送出 643 | ID 1 cam=(-0.046,+0.005,1.036)
+Error, more than one new minima found.
+2026-11-04 13:00:51,360 INFO 模式 LAND    解鎖 1 | 影像 2241 偵測 785 送出 699 | ID 1 cam=(+0.013,-0.002,0.748)
+2026-11-04 13:00:53,391 INFO 模式 LAND    解鎖 1 | 影像 2302 偵測 846 送出 756 | ID 1 cam=(-0.024,-0.003,0.441)
+2026-11-04 13:00:55,431 INFO 模式 LAND    解鎖 1 | 影像 2363 偵測 907 送出 814 | ID 2 cam=(+0.011,-0.009,0.163)
+2026-11-04 13:00:57,432 INFO 模式 LAND    解鎖 1 | 影像 2423 偵測 967 送出 872 | ID 2 cam=(+0.011,-0.009,0.163)
+2026-11-04 13:00:58,025 INFO [FC] Disarming motors
+2026-11-04 13:00:59,460 INFO 模式 LAND    解鎖 0 | 影像 2484 偵測 1028 送出 929 | ID 2 cam=(+0.011,-0.009,0.163)
+2026-11-04 13:01:01,466 INFO 模式 LAND    解鎖 0 | 影像 2544 偵測 1088 送出 981 | ID 2 cam=(+0.011,-0.009,0.163)
+2026-11-04 13:01:01,664 INFO [auto] 落地=True 耗時 30.4 s，與平台中心水平誤差 13.9 mm（平台座標 x -7.6 / y 11.7 mm），在平台上=True
+2026-11-04 13:01:03,669 INFO [FC] PrecLand: Target Lost
+2026-11-04 13:01:04,143 INFO Excel：/home/sunshine/work_space/ardupilot_Precision_landing/logs/batch_20261104_125246_mtC/run_05/plnd_20261104_125932.xlsx
+2026-11-04 13:01:04,240 INFO 影像延遲估測：35 ms（量測水平 RMS 24.8 mm；不補償延遲時 45.4 mm）→ 建議 PLND_LAG ≈ 0.052 s

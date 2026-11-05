@@ -1,0 +1,21 @@
+# 實機：USB 相機 UHD4K + companion 送 LANDING_TARGET（PLND_TYPE 變更後需重開機）
+# 先在 GCS 載入本檔；PSC_NE_POS_P 等 sim 專用調校刻意不放在這裡，首飛用機體自己的調參
+
+PLND_ENABLED     1
+PLND_TYPE        1        # MAVLink
+PLND_EST_TYPE    1        # Kalman filter
+PLND_LAG         0.05     # 拍攝→飛控收到。VM 內實測區間 0.03~0.063；換 companion 後要用 cam_test.py e2e 重測
+PLND_CAM_POS_X   0.0      # ★ 必改：相機相對 IMU（FRD, m），用尺量
+PLND_CAM_POS_Y   0.0      # ★ 必改
+PLND_CAM_POS_Z   0.0      # ★ 必改
+PLND_LAND_OFS_X  0
+PLND_LAND_OFS_Y  0
+PLND_XY_DIST_MAX 1.0      # 水平誤差大於此值時暫停下降（m）
+PLND_STRICT      1        # 目標遺失：重試
+PLND_RET_MAX     4
+PLND_TIMEOUT     4
+PLND_RET_BEHAVE  0
+PLND_ALT_MIN     0
+PLND_ALT_MAX     0
+
+LAND_SPD_MS      0.3

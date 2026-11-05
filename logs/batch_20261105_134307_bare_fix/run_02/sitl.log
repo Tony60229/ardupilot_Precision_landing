@@ -1,0 +1,96 @@
+RiTW: Starting ArduCopter : /home/sunshine/ardupilot/build/sitl/bin/arducopter -w --model gazebo-iris --speedup 1 --slave 0 --sim-address=127.0.0.1 -I0
+Connect tcp:127.0.0.1:5760 source_system=255
+Log Directory: 
+Telemetry log: mav.tlog
+Waiting for heartbeat from tcp:127.0.0.1:5760
+AP: Calibrating barometer
+Detected vehicle 1:1 on link 0
+online system 1
+STABILIZE> Mode STABILIZE
+AP: ArduCopter V4.8.0-dev (422fa5e6)
+AP: 827b0d0c0e3b47b4b290a95d1e2921d9
+AP: Frame: QUAD/X
+Received 1444 parameters (ftp)
+Saved 1444 parameters to mav.parm
+AP: Barometer 1 calibration complete
+AP: Barometer 2 calibration complete
+Init Gyro**
+AP: ArduPilot Ready
+AP: RC7: SaveWaypoint LOW
+AP: RC8: PrecisionLoiter MIDDLE
+Detected vehicle 255:191 on link 0
+AP: EKF3 IMU0 initialised
+AP: EKF3 IMU1 initialised
+AP: AHRS: EKF3 active
+AP: EKF3 IMU0 tilt alignment complete
+AP: EKF3 IMU1 tilt alignment complete
+AP: EKF3 IMU0 MAG0 initial yaw alignment complete
+AP: EKF3 IMU1 MAG0 initial yaw alignment complete
+EOF on TCP socket
+Attempting reconnect
+Connection reset or closed by peer on TCP socket
+Attempting reconnect
+
+
+Init ArduCopter V4.8.0-dev (422fa5e6)
+
+Free RAM: 524288
+Booting 0/0
+0 0 0 AP_Logger_File: buffer size=204800
+AP: Barometer 1 calibration complete
+AP: Barometer 2 calibration complete
+Init Gyro**
+AP: ArduPilot Ready
+AP: RC7: SaveWaypoint LOW
+AP: RC8: PrecisionLoiter MIDDLE
+AP: EKF3 IMU0 initialised
+AP: EKF3 IMU1 initialised
+AP: AHRS: EKF3 active
+GUIDED> Mode GUIDED
+AP: Arm: Need Alt Estimate
+AP: Arm: Accels inconsistent
+AP: Arm: EKF attitude is bad
+AP: Arm: AHRS: waiting for home
+AP: EKF3 IMU1 tilt alignment complete
+AP: EKF3 IMU0 tilt alignment complete
+AP: EKF3 IMU0 MAG0 initial yaw alignment complete
+AP: EKF3 IMU1 MAG0 initial yaw alignment complete
+fence present
+Flight battery 100 percent
+AP: GPS 1: probing for u-blox at 230400 baud
+AP: GPS 1: detected u-blox
+AP: Arm: Accels inconsistent
+AP: Arm: AHRS: waiting for home
+AP: Arm: AHRS: waiting for home
+AP: EKF3 IMU0 origin set
+AP: EKF3 IMU1 origin set
+AP: Field Elevation Set: 584m
+AP: Arm: Need Position Estimate
+AP: PreArm: Need Position Estimate
+AP: Arm: Need Position Estimate
+AP: Arm: Need Position Estimate
+AP: Arm: Need Position Estimate
+AP: EKF3 IMU0 is using GPS
+AP: EKF3 IMU1 is using GPS
+AP: Arming motors
+ARMED
+AP: EKF3 IMU0 MAG0 in-flight yaw alignment complete
+AP: EKF3 IMU1 MAG0 in-flight yaw alignment complete
+AP: PrecLand: Target Found
+AP: PrecLand: Init Failed
+AP: PrecLand: Target Found
+AP: PrecLand: Init Complete
+LAND> Mode LAND
+Flight battery 100 percent
+AP: Disarming motors
+DISARMED
+SIM_VEHICLE: Start
+WARNING: frame gazebo-iris needs an external simulator and no --model was given, using model gazebo-iris
+SIM_VEHICLE: Killing tasks
+SIM_VEHICLE: Starting up at SITL location
+SIM_VEHICLE: Run ArduCopter
+SIM_VEHICLE: "/home/sunshine/ardupilot/Tools/autotest/run_in_terminal_window.sh" "ArduCopter" "/home/sunshine/ardupilot/build/sitl/bin/arducopter" "-w" "--model" "gazebo-iris" "--speedup" "1" "--slave" "0" "--sim-address=127.0.0.1" "-I0"
+SIM_VEHICLE: Run MavProxy
+SIM_VEHICLE: "mavproxy.py" "--retries" "5" "--out" "127.0.0.1:14550" "--master" "tcp:127.0.0.1:5760" "--sitl" "127.0.0.1:5501" "--daemon" "--non-interactive"
+SIM_VEHICLE: Keyboard Interrupt received ...
+SIM_VEHICLE: Killing tasks

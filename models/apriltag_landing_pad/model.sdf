@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<sdf version="1.6">
+  <!--
+    降落平台：1.5 x 1.5 m，高 0.4 m（平台頂面 z = 0.4 m）
+    頂面貼 AprilTag tagCustom48h12 nested (00000/00001/00002)
+      - 貼圖為整張 1200x1200 png（含外圍 1 格白邊），鋪滿 1.5 m 平面
+      - 每格 1.5/12 = 0.125 m；最外層 tag 黑框外緣 = 10 格 = 1.25 m
+    要改尺寸：同時改 platform 的 box size、tag 平面 size 與 tag 的 z 高度
+  -->
+  <model name="apriltag_landing_pad">
+    <static>true</static>
+    <link name="link">
+
+      <!-- 平台本體 -->
+      <collision name="platform_collision">
+        <pose>0 0 0.2 0 0 0</pose>
+        <geometry>
+          <box><size>1.5 1.5 0.4</size></box>
+        </geometry>
+        <surface>
+          <friction>
+            <ode><mu>1.0</mu><mu2>1.0</mu2></ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="platform_visual">
+        <pose>0 0 0.2 0 0 0</pose>
+        <cast_shadows>true</cast_shadows>
+        <geometry>
+          <box><size>1.5 1.5 0.4</size></box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/DarkGrey</name>
+          </script>
+        </material>
+      </visual>
+
+      <!-- AprilTag 貼圖（略高於頂面避免 z-fighting） -->
+      <visual name="apriltag_visual">
+        <pose>0 0 0.4015 0 0 0</pose>
+        <cast_shadows>false</cast_shadows>
+        <geometry>
+          <box><size>1.5 1.5 0.002</size></box>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://apriltag_landing_pad/materials/scripts</uri>
+            <uri>model://apriltag_landing_pad/materials/textures</uri>
+            <name>AprilTag/Custom48h12Nested</name>
+          </script>
+        </material>
+      </visual>
+
+    </link>
+  </model>
+</sdf>

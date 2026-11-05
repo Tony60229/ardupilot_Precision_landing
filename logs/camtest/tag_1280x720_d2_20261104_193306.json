@@ -1,0 +1,50 @@
+{
+ "size": [
+  1280,
+  720
+ ],
+ "decimate": 2.0,
+ "rows": [
+  {
+   "side_screen_px": 45,
+   "frames": 20,
+   "ok": 20,
+   "ids": {
+    "0": 20
+   },
+   "detect_ms": 6.467629995313473,
+   "edge_px": 14.66980555901949,
+   "best_id": 0,
+   "uv_std_px": 0.013091947521513712,
+   "margin": 68.92595672607422
+  },
+  {
+   "side_screen_px": 38,
+   "frames": 20,
+   "ok": 0,
+   "ids": {},
+   "detect_ms": 6.118216988397762
+  },
+  {
+   "side_screen_px": 32,
+   "frames": 20,
+   "ok": 0,
+   "ids": {},
+   "detect_ms": 6.284227492869832
+  },
+  {
+   "side_screen_px": 26,
+   "frames": 20,
+   "ok": 0,
+   "ids": {},
+   "detect_ms": 5.896622984437272
+  },
+  {
+   "side_screen_px": 22,
+   "frames": 20,
+   "ok": 0,
+   "ids": {},
+   "detect_ms": 6.23044949315954
+  }
+ ]
+}

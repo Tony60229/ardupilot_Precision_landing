@@ -1,0 +1,25 @@
+{
+ "seed": 2026,
+ "args": {
+  "runs": 5,
+  "seed": 2026,
+  "pad_center": [
+   5.0,
+   0.0
+  ],
+  "pad_range": 1.5,
+  "pad_yaw": "random",
+  "approach_err": 1.5,
+  "takeoff_alt": 6.0,
+  "frame": "body",
+  "video_latency": null,
+  "param": [],
+  "mavproxy": true,
+  "conn": null,
+  "load": 0,
+  "run_timeout": 300.0,
+  "success_radius": 0.05,
+  "tag": "usbcam_regress",
+  "out": "/home/sunshine/work_space/ardupilot_Precision_landing/logs"
+ }
+}

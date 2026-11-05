@@ -1,0 +1,35 @@
+# ArduCopter 視覺導引 Precision Landing（companion 送 MAVLink LANDING_TARGET）
+# 用法：sim_vehicle.py ... --add-param-file=<本檔路徑>
+# 實機：在 GCS 載入此檔（PLND_TYPE 變更後需重開機）
+
+# ---- Precision Landing ----
+PLND_ENABLED     1
+PLND_TYPE        1        # 1 = MAVLink（gazebo-iris.parm 預設 3 = IRLock Gazebo，這裡覆寫）
+PLND_EST_TYPE    1        # Kalman filter
+PLND_ACC_P_NSE   2.5
+PLND_LAG         0.05     # 拍攝→飛控收到的總延遲（s）。sim 真值估測：一般 ~0.035、高負載 ~0.09
+                          # 實機請依 ap_precland 的延遲估測或相機規格重設
+PLND_CAM_POS_X   0.0      # 相機相對 IMU（FRD, m）：iris_downcam 相機在機身中心下方 3 cm
+PLND_CAM_POS_Y   0.0
+PLND_CAM_POS_Z   0.03
+PLND_LAND_OFS_X  0
+PLND_LAND_OFS_Y  0
+PLND_YAW_ALIGN   0
+PLND_XY_DIST_MAX 1.0      # 水平誤差大於此值時暫停下降（m）
+PLND_STRICT      1        # 目標遺失：重試
+PLND_RET_MAX     4
+PLND_TIMEOUT     4
+PLND_RET_BEHAVE  0
+PLND_ALT_MIN     0        # 沒有量到「平台」的測距儀：關閉高度範圍檢查
+PLND_ALT_MAX     0
+PLND_OPTIONS     1        # bit0 Moving target：以視覺相對速度補償 EKF 速度誤差（靜止平台也建議開）
+
+# ---- LAND ----
+LAND_SPD_MS      0.3      # 最後下降速度（m/s）；precland 在目標 2 m 內會再減半並依水平誤差減速
+LAND_SPD_HIGH_MS 0
+LAND_ALT_LOW_M   10
+LAND_REPOSITION  1
+
+# ---- 位置控制 ----
+# 預設 1.0：EKF 速度誤差（0.1~0.15 m/s）會造成 ~10 cm 穩態偏移；提高外環增益讓視覺位置修正更強
+PSC_NE_POS_P     2.0
